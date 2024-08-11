@@ -9,26 +9,40 @@ body {
   background-color: #c6c1ab;
 }
 
-/* nav,
-.nav-links {
-  display: flex;
+nav {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-} */
-
-ul{
+ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
 }
 
-li{
-  font-size: 1.5rem;
+li {
+  /* font-size: 1.5rem;
+  padding-left: 35px; */
+  font-size: 1.3rem;
+  padding-left: 25px;
+  padding-top: 1px;
+}
+
+.menu-box {
+  height: 1.8rem;
+  width: 10rem;
+  background-color: #91897e;
+  display: flex;
+  justify-content: left;
+}
+
+.square-box {
+  height: 1.2rem;
+  width: 1.3rem;
+  background-color: #444035;
+  margin: 3%;
+  margin-left: 5%;
 }
 
 .yorha-logo {
