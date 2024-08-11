@@ -67,3 +67,17 @@ const months = [
 
 let month = months[currentDateDayMonth.getMonth()];
 document.getElementById("month").innerHTML = month;
+
+// const boxContainers = document.querySelectorAll(".box-container");
+
+// boxContainers.forEach((box) => {
+//   box.style.transition = "transform 330ms ease-in-out";
+
+//   box.addEventListener("mouseover", () => {
+//     box.style.transform = "scale(1.03)";
+//   });
+
+//   box.addEventListener("mouseout", () => {
+//     box.style.transform = "";
+//   });
+// });
