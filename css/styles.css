@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Readex+Pro:wght@160..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c6c1ab;
+}
+
+/* nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+} */
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+li{
+  font-size: 1.5rem;
+}
+
+.yorha-logo {
+  height: 35vh;
+  width: 30vh;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 25vh;
+  margin-bottom: 25vh; */
+}
+
+.title-text {
+  font-family: "Readex Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.yorha-title {
+  font-size: 15vh;
+}
+
+.glory-mankind {
+  font-size: 3.5vh;
+  padding-left: 24px;
+}
+
+.box-container {
+  height: 30vh;
+  width: 18vw;
+  background-color: #d7d5c4;
+  border: 1px solid black;
+  box-shadow: 5px 10px #605c50;
+}
+
+.container-title {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  color: white;
+  background-color: #413d34;
+  height: 2rem;
+  font-family: "Readex Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container-title-day {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  color: white;
+  background-color: #413d34;
+  height: 13rem;
+  font-family: "Readex Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.bottom-info-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-info-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
